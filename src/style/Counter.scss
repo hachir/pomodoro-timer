@@ -1,0 +1,39 @@
+@import 'vars.scss';
+
+#sessionTime-timer-controls {
+  margin-right: 100px;
+
+  @media screen and (max-width: 425px) {
+    margin-right: 30px;
+  }
+}
+
+.timer-control-name {
+  font-size: 24px;
+  color: $mediumAccent;
+  font-family: $roboto;
+
+  @media screen and (max-width: $screenBreak) {
+    text-align: center;
+  }
+}
+
+.counter-controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.timerTotal {
+  font-size: 36px;
+  color: $mediumAccent;
+  font-family: $roboto;
+}
+
+.adjust-time {
+  cursor: pointer;
+  font-size: 24px;
+  background-color: $baseColor;
+  border: 0;
+  color: $darkAccent;
+}
