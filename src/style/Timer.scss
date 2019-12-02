@@ -1,0 +1,32 @@
+@import 'vars.scss';
+
+.timer-countdown {
+  background: $lightAccent;
+  background: linear-gradient(to bottom right, $mediumAccent, $darkAccent);
+  border: 0;
+  font-family: $roboto;
+  color: $baseColor;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 45px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+
+  h2 {
+    font-size: 28px;
+  }
+
+  span {
+    font-size: 22px;
+  }
+}
+
+.play-pause-btn {
+  margin-top: 25px;
+}
